@@ -6,5 +6,6 @@
                  name="Help Instance"
                  start-page="UninformedSearchAlgorithms.md">
 
+    <toc-element topic="Informed-Search.md"/>
     <toc-element topic="UninformedSearchAlgorithms.md"/>
 </instance-profile>
