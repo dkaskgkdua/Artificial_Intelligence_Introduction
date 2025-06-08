@@ -8,5 +8,6 @@
 
     <toc-element topic="Adversarial-Search.md"/>
     <toc-element topic="Informed-Search.md"/>
+    <toc-element topic="ConstraintSatisfactionProblem.md"/>
     <toc-element topic="UninformedSearchAlgorithms.md"/>
 </instance-profile>

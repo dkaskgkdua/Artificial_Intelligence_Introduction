@@ -1,4 +1,4 @@
-# 적대적 탐색과 게임 플레이 (Adversarial Search and Game-Playing)
+# Adversarial Search and Game-Playing
 
 이 문서는 두 명의 플레이어가 서로의 이익이 상충하는 환경에서 최적의 수를 찾기 위한 인공지능 기법인 적대적 탐색에 대해 설명합니다. 
 
