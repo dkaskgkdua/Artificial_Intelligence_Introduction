@@ -92,7 +92,7 @@ K-평균은 문서를 실수 값의 용어 벡터(term vector)로 간주하고, 
 ## 5. 계층적 클러스터링 (Hierarchical Clustering)
 
 ### 1. 분할형 (Divisive) 계층적 클러스터링
-
+![hierarchical_top_down.png](./images/hierarchical_top_down.png)
 -   **하향식(Top-down)** 접근법입니다.
 -   전체 문서 컬렉션을 하나의 클러스터로 간주하고 시작합니다.
 -   이후 K-평균과 같은 플랫 클러스터링 알고리즘을 사용하여 각 클러스터를 재귀적으로 더 작은 클러스터로 나눕니다.
@@ -113,10 +113,20 @@ K-평균은 문서를 실수 값의 용어 벡터(term vector)로 간주하고, 
 1.  **단일 연결(Single-link) 클러스터링**:
     -   두 클러스터 간의 유사도를 **두 클러스터에 속한 모든 문서 쌍 중 가장 유사한 쌍**의 유사도로 정의합니다.
     -   느슨하게 연결된 큰 클러스터를 형성하는 경향이 있으며, "연쇄 효과(chaining effect)"가 발생할 수 있습니다.
+    -  ![single_link_dataset.png](./images/single_link_dataset.png)
+    - ![single_link_exam1.png](./images/single_link_exam1.png)
+    - ![single_link_exam2.png](./images/single_link_exam2.png)
+    - ![single_link_exam3.png](./images/single_link_exam3.png)
+    - ![single_link_exam4.png](./images/single_link_exam4.png)
 
 2.  **완전 연결(Complete-link) 클러스터링**:
     -   두 클러스터 간의 유사도를 **두 클러스터에 속한 모든 문서 쌍 중 가장 덜 유사한 쌍**의 유사도로 정의합니다.
     -   작고 밀집된 클러스터를 형성하는 경향이 있습니다. 정보 검색 분야에서는 단일 연결 방식보다 더 적합할 수 있으나, 계산 비용이 더 높습니다.
+    - ![complete-link-exam1.png](./images/complete-link-exam1.png)
+    - ![complete-link-exam2.png](./images/complete-link-exam2.png)
+    - ![complete-link-exam3.png](./images/complete-link-exam3.png)
+    - ![complete-link-exam4.png](./images/complete-link-exam4.png)
+    - ![complete-link-exam5.png](./images/complete-link-exam5.png)
 
 3.  **그룹 평균 연결(Group average-link) 클러스터링**:
     -   두 클러스터 간의 모든 문서 쌍의 평균 유사도를 사용합니다.
