@@ -6,6 +6,7 @@
                  name="Help Instance"
                  start-page="UninformedSearchAlgorithms.md">
 
+    <toc-element topic="Q-learning.md"/>
     <toc-element topic="Clustering.md"/>
     <toc-element topic="Adversarial-Search.md"/>
     <toc-element topic="Informed-Search.md"/>
