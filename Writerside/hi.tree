@@ -6,12 +6,13 @@
                  name="Help Instance"
                  start-page="UninformedSearchAlgorithms.md">
 
-    <toc-element topic="Q-learning.md"/>
-    <toc-element topic="Clustering.md"/>
-    <toc-element topic="Adversarial-Search.md"/>
-    <toc-element topic="Informed-Search.md"/>
-    <toc-element topic="ConstraintSatisfactionProblem.md"/>
-    <toc-element topic="KNN.md"/>
-    <toc-element topic="Decision-Tree.md"/>
     <toc-element topic="UninformedSearchAlgorithms.md"/>
+    <toc-element topic="Informed-Search.md"/>
+    <toc-element topic="Decision-Tree.md"/>
+    <toc-element topic="Adversarial-Search.md"/>
+    <toc-element topic="ConstraintSatisfactionProblem.md"/>
+    <toc-element topic="Clustering.md"/>
+    <toc-element topic="KNN.md"/>
+    <toc-element topic="Q-learning.md"/>
+    <toc-element topic="Artificial-Intellijence.md"/>
 </instance-profile>
